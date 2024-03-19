@@ -1,0 +1,47 @@
+.loginContainer{
+
+  
+    background-color: rgb(229, 247, 247);
+    border-radius: 8px;
+    max-width: 400px;
+    margin:  auto;
+    margin-top: 200px;
+    padding: 20px;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+    transition: all 300ms;
+    
+}
+
+input:focus{
+   background-color: rgb(246, 234, 234);
+   outline: none;
+   transition: all 300ms;
+}
+
+.submitbtn{
+    background-color: crimson;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.logoutBtn {
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 10px;
+}
